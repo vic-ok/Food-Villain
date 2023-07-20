@@ -1,0 +1,1225 @@
+fileFormatVersion: 2
+guid: 59afa1f2c595d6343b15e945602e1f8f
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bat1Control
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: HeadControl
+  - first:
+      1: 100006
+    second: HeadJoint
+  - first:
+      1: 100008
+    second: lWing
+  - first:
+      1: 100010
+    second: lWing2
+  - first:
+      1: 100012
+    second: lWing3
+  - first:
+      1: 100014
+    second: lWing4
+  - first:
+      1: 100016
+    second: lWing5
+  - first:
+      1: 100018
+    second: lWingControl
+  - first:
+      1: 100020
+    second: lWingControl 1
+  - first:
+      1: 100022
+    second: lWingControl2
+  - first:
+      1: 100024
+    second: lWingControl2 1
+  - first:
+      1: 100026
+    second: lWingControl3
+  - first:
+      1: 100028
+    second: lWingControl4
+  - first:
+      1: 100030
+    second: lWingControl5
+  - first:
+      1: 100032
+    second: lWingControl6
+  - first:
+      1: 100034
+    second: lWingControl7
+  - first:
+      1: 100036
+    second: lWingControl8
+  - first:
+      1: 100038
+    second: lWingControl9
+  - first:
+      1: 100040
+    second: lWingRoot
+  - first:
+      1: 100042
+    second: lWingRootControl
+  - first:
+      1: 100044
+    second: lWingRootControl1
+  - first:
+      1: 100046
+    second: lWingTail
+  - first:
+      1: 100048
+    second: lWingTail2
+  - first:
+      1: 100050
+    second: lWingTail3
+  - first:
+      1: 100052
+    second: Mesh
+  - first:
+      1: 100054
+    second: NoseControl
+  - first:
+      1: 100056
+    second: NoseJoint
+  - first:
+      1: 100058
+    second: NoseTipJoint
+  - first:
+      1: 100060
+    second: RIG
+  - first:
+      1: 100062
+    second: RootJoint
+  - first:
+      1: 100064
+    second: rWing
+  - first:
+      1: 100066
+    second: rWing2
+  - first:
+      1: 100068
+    second: rWing3
+  - first:
+      1: 100070
+    second: rWing4
+  - first:
+      1: 100072
+    second: rWing5
+  - first:
+      1: 100074
+    second: rWingRoot
+  - first:
+      1: 100076
+    second: rWingTailControl
+  - first:
+      1: 100078
+    second: rWingTailControl2
+  - first:
+      1: 100080
+    second: rWingTailControl3
+  - first:
+      1: 100082
+    second: rWingTair
+  - first:
+      1: 100084
+    second: rWingTair2
+  - first:
+      1: 100086
+    second: rWingTair3
+  - first:
+      4: 400000
+    second: Bat1Control
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: HeadControl
+  - first:
+      4: 400006
+    second: HeadJoint
+  - first:
+      4: 400008
+    second: lWing
+  - first:
+      4: 400010
+    second: lWing2
+  - first:
+      4: 400012
+    second: lWing3
+  - first:
+      4: 400014
+    second: lWing4
+  - first:
+      4: 400016
+    second: lWing5
+  - first:
+      4: 400018
+    second: lWingControl
+  - first:
+      4: 400020
+    second: lWingControl 1
+  - first:
+      4: 400022
+    second: lWingControl2
+  - first:
+      4: 400024
+    second: lWingControl2 1
+  - first:
+      4: 400026
+    second: lWingControl3
+  - first:
+      4: 400028
+    second: lWingControl4
+  - first:
+      4: 400030
+    second: lWingControl5
+  - first:
+      4: 400032
+    second: lWingControl6
+  - first:
+      4: 400034
+    second: lWingControl7
+  - first:
+      4: 400036
+    second: lWingControl8
+  - first:
+      4: 400038
+    second: lWingControl9
+  - first:
+      4: 400040
+    second: lWingRoot
+  - first:
+      4: 400042
+    second: lWingRootControl
+  - first:
+      4: 400044
+    second: lWingRootControl1
+  - first:
+      4: 400046
+    second: lWingTail
+  - first:
+      4: 400048
+    second: lWingTail2
+  - first:
+      4: 400050
+    second: lWingTail3
+  - first:
+      4: 400052
+    second: Mesh
+  - first:
+      4: 400054
+    second: NoseControl
+  - first:
+      4: 400056
+    second: NoseJoint
+  - first:
+      4: 400058
+    second: NoseTipJoint
+  - first:
+      4: 400060
+    second: RIG
+  - first:
+      4: 400062
+    second: RootJoint
+  - first:
+      4: 400064
+    second: rWing
+  - first:
+      4: 400066
+    second: rWing2
+  - first:
+      4: 400068
+    second: rWing3
+  - first:
+      4: 400070
+    second: rWing4
+  - first:
+      4: 400072
+    second: rWing5
+  - first:
+      4: 400074
+    second: rWingRoot
+  - first:
+      4: 400076
+    second: rWingTailControl
+  - first:
+      4: 400078
+    second: rWingTailControl2
+  - first:
+      4: 400080
+    second: rWingTailControl3
+  - first:
+      4: 400082
+    second: rWingTair
+  - first:
+      4: 400084
+    second: rWingTair2
+  - first:
+      4: 400086
+    second: rWingTair3
+  - first:
+      43: 4300000
+    second: Mesh
+  - first:
+      74: 7400000
+    second: bat_idle
+  - first:
+      74: 7400002
+    second: bat_move
+  - first:
+      74: 7400004
+    second: bat_attack
+  - first:
+      74: 7400006
+    second: bat_damage
+  - first:
+      74: 7400008
+    second: bat_die
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BatMaterial
+    second: {fileID: 2100000, guid: 1945ca08888585540b2dbfd8b76f2b32, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: bat_idle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: RIG
+        weight: 1
+      - path: RIG/Bat1Control
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl
+          1
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl
+          1/lWingTail
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl2
+          1
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl2
+          1/lWingTail2
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl3
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl3/lWingControl4
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl9
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl9/lWingTail3
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/lWingControl7
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/lWingControl7/lWingControl8
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/rWingTailControl2
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/rWingTailControl2/rWingTair2
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/rWingTailControl3
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/rWingTailControl3/rWingTair3
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/rWingTailControl
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/rWingTailControl/rWingTair
+        weight: 1
+      - path: RIG/Bat1Control/NoseControl
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing/lWing2
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing/lWing2/lWing3
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing/lWing2/lWing3/lWing4
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing/lWing2/lWing3/lWing4/lWing5
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing/rWing2
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing/rWing2/rWing3
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing/rWing2/rWing3/rWing4
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing/rWing2/rWing3/rWing4/rWing5
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/NoseJoint
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/NoseJoint/NoseTipJoint
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bat_move
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 40
+      lastFrame: 76
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: RIG
+        weight: 1
+      - path: RIG/Bat1Control
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl
+          1
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl
+          1/lWingTail
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl2
+          1
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl2
+          1/lWingTail2
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl3
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl3/lWingControl4
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl9
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl9/lWingTail3
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/lWingControl7
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/lWingControl7/lWingControl8
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/rWingTailControl2
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/rWingTailControl2/rWingTair2
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/rWingTailControl3
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/rWingTailControl3/rWingTair3
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/rWingTailControl
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/rWingTailControl/rWingTair
+        weight: 1
+      - path: RIG/Bat1Control/NoseControl
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing/lWing2
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing/lWing2/lWing3
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing/lWing2/lWing3/lWing4
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing/lWing2/lWing3/lWing4/lWing5
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing/rWing2
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing/rWing2/rWing3
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing/rWing2/rWing3/rWing4
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing/rWing2/rWing3/rWing4/rWing5
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/NoseJoint
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/NoseJoint/NoseTipJoint
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bat_attack
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 80
+      lastFrame: 104
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: RIG
+        weight: 1
+      - path: RIG/Bat1Control
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl
+          1
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl
+          1/lWingTail
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl2
+          1
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl2
+          1/lWingTail2
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl3
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl3/lWingControl4
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl9
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl9/lWingTail3
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/lWingControl7
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/lWingControl7/lWingControl8
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/rWingTailControl2
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/rWingTailControl2/rWingTair2
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/rWingTailControl3
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/rWingTailControl3/rWingTair3
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/rWingTailControl
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/rWingTailControl/rWingTair
+        weight: 1
+      - path: RIG/Bat1Control/NoseControl
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing/lWing2
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing/lWing2/lWing3
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing/lWing2/lWing3/lWing4
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing/lWing2/lWing3/lWing4/lWing5
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing/rWing2
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing/rWing2/rWing3
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing/rWing2/rWing3/rWing4
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing/rWing2/rWing3/rWing4/rWing5
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/NoseJoint
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/NoseJoint/NoseTipJoint
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bat_damage
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 110
+      lastFrame: 127
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: RIG
+        weight: 1
+      - path: RIG/Bat1Control
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl
+          1
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl
+          1/lWingTail
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl2
+          1
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl2
+          1/lWingTail2
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl3
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl3/lWingControl4
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl9
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl9/lWingTail3
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/lWingControl7
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/lWingControl7/lWingControl8
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/rWingTailControl2
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/rWingTailControl2/rWingTair2
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/rWingTailControl3
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/rWingTailControl3/rWingTair3
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/rWingTailControl
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/rWingTailControl/rWingTair
+        weight: 1
+      - path: RIG/Bat1Control/NoseControl
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing/lWing2
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing/lWing2/lWing3
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing/lWing2/lWing3/lWing4
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing/lWing2/lWing3/lWing4/lWing5
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing/rWing2
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing/rWing2/rWing3
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing/rWing2/rWing3/rWing4
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing/rWing2/rWing3/rWing4/rWing5
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/NoseJoint
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/NoseJoint/NoseTipJoint
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bat_die
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 130
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: RIG
+        weight: 1
+      - path: RIG/Bat1Control
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl
+          1
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl
+          1/lWingTail
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl2
+          1
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl2
+          1/lWingTail2
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl3
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl3/lWingControl4
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl9
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl/lWingControl/lWingControl2/lWingControl9/lWingTail3
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/lWingControl7
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/lWingControl7/lWingControl8
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/rWingTailControl2
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/rWingTailControl2/rWingTair2
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/rWingTailControl3
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/lWingControl6/rWingTailControl3/rWingTair3
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/rWingTailControl
+        weight: 1
+      - path: RIG/Bat1Control/HeadControl/lWingRootControl1/lWingControl5/rWingTailControl/rWingTair
+        weight: 1
+      - path: RIG/Bat1Control/NoseControl
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing/lWing2
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing/lWing2/lWing3
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing/lWing2/lWing3/lWing4
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/lWingRoot/lWing/lWing2/lWing3/lWing4/lWing5
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing/rWing2
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing/rWing2/rWing3
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing/rWing2/rWing3/rWing4
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/HeadJoint/rWingRoot/rWing/rWing2/rWing3/rWing4/rWing5
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/NoseJoint
+        weight: 1
+      - path: RIG/Bat1Control/RootJoint/NoseJoint/NoseTipJoint
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.5
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Bat_Level_1(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh
+      parentName: Bat_Level_1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RIG
+      parentName: Bat_Level_1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bat1Control
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NoseControl
+      parentName: Bat1Control
+      position: {x: -2.3881531e-34, y: 0.005, z: 0.0045706746}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HeadControl
+      parentName: Bat1Control
+      position: {x: -0, y: 0.00999155, z: 0.00041101893}
+      rotation: {x: -0.047465615, y: -0.0023732805, z: 0.9093824, w: 0.41323736}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lWingRootControl
+      parentName: HeadControl
+      position: {x: -0.0059614717, y: 0.0028333208, z: -0.002281565}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lWingControl
+      parentName: lWingRootControl
+      position: {x: -0.0016844874, y: 0.0024991995, z: 0.00028961292}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lWingControl2
+      parentName: lWingControl
+      position: {x: -0.0060708467, y: 0.009070748, z: 0.0013135866}
+      rotation: {x: 0.15204033, y: 0.031012947, z: -0.5189202, w: 0.84062105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lWingControl3
+      parentName: lWingControl2
+      position: {x: -0.006147369, y: -0.0014233753, z: -0.0008332024}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lWingControl4
+      parentName: lWingControl3
+      position: {x: -0.00850151, y: -0.004447314, z: -0.0013945317}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lWingControl2 1
+      parentName: lWingControl2
+      position: {x: -0.004760249, y: -0.011003937, z: -0.0031540974}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lWingTail2
+      parentName: lWingControl2 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lWingControl9
+      parentName: lWingControl2
+      position: {x: -0.011944364, y: -0.011831425, z: -0.0042067203}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lWingTail3
+      parentName: lWingControl9
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.0040429304, y: -0.12445262, z: -0.54889756, w: 0.8265632}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lWingControl 1
+      parentName: lWingControl
+      position: {x: -0.0037315746, y: -0.0036872008, z: -0.0018651909}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lWingTail
+      parentName: lWingControl 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lWingRootControl1
+      parentName: HeadControl
+      position: {x: 0.00596145, y: 0.0028333005, z: -0.002281564}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lWingControl5
+      parentName: lWingRootControl1
+      position: {x: 0.0016844999, y: 0.0024992, z: 0.00028960998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lWingControl6
+      parentName: lWingControl5
+      position: {x: 0.00607085, y: 0.009070749, z: 0.0013135885}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lWingControl7
+      parentName: lWingControl6
+      position: {x: 0.0061474, y: -0.00142335, z: -0.0008332035}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lWingControl8
+      parentName: lWingControl7
+      position: {x: 0.0085015, y: -0.0044473, z: -0.00139453}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rWingTailControl2
+      parentName: lWingControl6
+      position: {x: 0.0047602495, y: -0.011003899, z: -0.0031540983}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rWingTair2
+      parentName: rWingTailControl2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: -0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rWingTailControl3
+      parentName: lWingControl6
+      position: {x: 0.01194435, y: -0.0118314, z: -0.0042067184}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rWingTair3
+      parentName: rWingTailControl3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: -0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rWingTailControl
+      parentName: lWingControl5
+      position: {x: 0.0037316, y: -0.0036872, z: -0.0018651899}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rWingTair
+      parentName: rWingTailControl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: -0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RootJoint
+      parentName: Bat1Control
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.014534786, y: 0.014534786, z: -0.70695746, w: 0.7069574}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HeadJoint
+      parentName: RootJoint
+      position: {x: -0.01, y: 2.220446e-18, z: 0}
+      rotation: {x: -0.0000000018626449, y: -9.3132246e-10, z: 0.7071068, w: 0.70710677}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lWingRoot
+      parentName: HeadJoint
+      position: {x: -0.0059614717, y: 0.0027371498, z: -0.0023960918}
+      rotation: {x: 0.0059324126, y: 0.0039926833, z: -0.14761482, w: 0.98901916}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: lWing
+      parentName: lWingRoot
+      position: {x: -0.0030277665, y: 0, z: 0}
+      rotation: {x: -0.004463979, y: 0.012001725, z: -0.0015057534, w: 0.9999169}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: lWing2
+      parentName: lWing
+      position: {x: -0.010993597, y: 8.2156505e-17, z: 0}
+      rotation: {x: 0.094161205, y: -0.005878284, z: 0.090634726, w: 0.9914053}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: lWing3
+      parentName: lWing2
+      position: {x: -0.006364776, y: 8.3266725e-19, z: -5.551115e-19}
+      rotation: {x: -0.003127403, y: 0.015288545, z: 0.124908514, w: 0.9920456}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.9999999}
+    - name: lWing4
+      parentName: lWing3
+      position: {x: -0.009695307, y: 3.122502e-19, z: 0}
+      rotation: {x: -0.0068835025, y: 0.0006378207, z: -0.034428697, w: 0.99938333}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lWing5
+      parentName: lWing4
+      position: {x: -0.008878546, y: 7.94937e-18, z: 0}
+      rotation: {x: 0.00000003213062, y: -0.000000007450579, z: -0.38634622, w: 0.9223538}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000002}
+    - name: rWingRoot
+      parentName: HeadJoint
+      position: {x: 0.00596145, y: 0.0027371296, z: -0.00239609}
+      rotation: {x: 0.988766, y: 0.14906712, z: 0.010725523, w: -0.0024019526}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: rWing
+      parentName: rWingRoot
+      position: {x: 0.0030277737, y: 0.0000000100166595, z: 0.0000000036806038}
+      rotation: {x: -0.005666611, y: 0.018210275, z: -0.02225594, w: 0.99957037}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000007}
+    - name: rWing2
+      parentName: rWing
+      position: {x: 0.0109936, y: 0.0000000017812631, z: -0.0000000014117337}
+      rotation: {x: 0.08811889, y: -0.05164025, z: 0.5750968, w: 0.81168467}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: rWing3
+      parentName: rWing2
+      position: {x: 0.0063648, y: -0.00000003139202, z: 0.0000000039652313}
+      rotation: {x: -0.009463408, y: 0.0017852448, z: -0.41322425, w: 0.91057837}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: rWing4
+      parentName: rWing3
+      position: {x: 0.0096952915, y: -0.000000007333977, z: 0.0000000015923328}
+      rotation: {x: -0.005475224, y: 0.018315112, z: 0.077174254, w: 0.9968344}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.9999996}
+    - name: rWing5
+      parentName: rWing4
+      position: {x: 0.00887855, y: 0.000000012979176, z: -0.0000000017024042}
+      rotation: {x: 0.00000012991947, y: -0.00000012665984, z: -0.38634643, w: 0.92235374}
+      scale: {x: 1, y: 1.0000007, z: 1.0000005}
+    - name: NoseJoint
+      parentName: RootJoint
+      position: {x: -0.005183638, y: 1.6659731e-18, z: 0.004361303}
+      rotation: {x: -0.5823662, y: 0.4010606, z: 0.40106067, w: 0.58236617}
+      scale: {x: 1.0000004, y: 0.9999999, z: 1.0000002}
+    - name: NoseTipJoint
+      parentName: NoseJoint
+      position: {x: -0.0042349384, y: 0, z: -9.403452e-19}
+      rotation: {x: 0.113881394, y: -0.6978761, z: 0.1138814, w: 0.6978761}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.5
+    rootMotionBoneName: Bat1Control
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
