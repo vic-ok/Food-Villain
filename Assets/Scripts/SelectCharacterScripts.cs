@@ -10,13 +10,13 @@ public class SelectCharacterScripts : MonoBehaviour
     public void onPlayer1Selected()
     {
         
-        SceneManager.LoadScene("FoodVillain 3");
+        SceneManager.LoadScene("FoodVillain 7");
     }
 
     public void onPlayer2Selected()
     {
        
-        SceneManager.LoadScene("FoodVillain 4");
+        SceneManager.LoadScene("FoodVillain 6");
     }
 
     public void onBackBtn()

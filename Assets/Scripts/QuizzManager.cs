@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+//using TMPro;
 
 public class QuizzManager : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class QuizzManager : MonoBehaviour
     public Text QuestionTxt;
     
     public Text CorrectionTxt;
+    //public Text ChatGPTCorrectionTxt;
     public GameObject correctionTxtGameObj;
     public GameObject chkScore2UnlockGoldTxtGameObj;
     public GameObject goldBadgeUI;
@@ -23,6 +25,7 @@ public class QuizzManager : MonoBehaviour
     public GameObject scoreboardTblShow;
     public GameObject unveilFoodGrpBtnGameObj;
     public GameObject foodGrpGameObj;
+    public QuizTimerScript quizTimerScript;
 
     Dictionary<string, string> allCorrectAns = new Dictionary<string, string>()
 {
@@ -52,13 +55,25 @@ public class QuizzManager : MonoBehaviour
     public GameObject GOPanel;
     public Text scoreText;
     int totalQuestions = 0;
-    int score = 0;
+    public int score = 0;
 
     public ObjectivesCompete objComp;
     public QuizTimerScript quizTimerRestart;
 
     public QuizzManager quizMgrRestart;
+    //public Rifle rifle;
 
+    public ChatGPTScript letsAskChatGPT;
+    public GameObject UserText2ChatGPT;
+    private string userTypeTxt;
+    public InputField userText;
+    public GameObject chatGPTTxtBox;
+    public GameObject chatGPTScrollArea;
+    public GameObject userSendBtn;
+    public GameObject userDoneBtn;
+    public Text questionEndTxtObj;
+    //public TMP_Text UserText2ChatGPT;
+    public static bool Level3Timer = false;
 
     public Text level2ScoreText; //NB: level1ScoreText is found in Rifle Script.
 
@@ -92,6 +107,7 @@ public class QuizzManager : MonoBehaviour
         quizzPanel.SetActive(false);
         GOPanel.SetActive(true);
         scoreText.text = score + "/" + totalQuestions;
+        //passPointToQuiz(score);
 
         if (score < (0.8 * totalQuestions))
         {
@@ -112,10 +128,18 @@ public class QuizzManager : MonoBehaviour
 
     }
 
+    /*public int passPointToQuiz(int pointsC)
+    {
+        //throw new NotImplementedException();
+        
+        return pointsC;
+    }*/
+
     public void showBeginFoodGroupLevelGame()
     {
         foodGrpGameObj.SetActive(true);
         //await Task.Delay((int)(4f * 1000));
+        Level3Timer = true;
 
     }
 
@@ -143,7 +167,15 @@ public class QuizzManager : MonoBehaviour
 
     public async void wrong()
     {
-        
+        letsAskChatGPT.AskChatGPT(qNa[currentQuestion].Questions +" "+ string.Join(" ", qNa[currentQuestion].Answers));
+        chatGPTScrollArea.SetActive(true);
+        chatGPTTxtBox.SetActive(true);
+
+        UserText2ChatGPT.SetActive(true);
+        userSendBtn.SetActive(true);
+        userDoneBtn.SetActive(true);
+        //ConfirmAnswerWithChatGPT();
+
         string str = qNa[currentQuestion].Answers[qNa[currentQuestion].CorrectAnswer - 1].ToString();
         foreach (KeyValuePair<string, string> entry in allCorrectAns)
         {
@@ -153,17 +185,52 @@ public class QuizzManager : MonoBehaviour
                 CorrectionTxt.color = Color.cyan;
 
                 correctionTxtGameObj.SetActive(true);
-                await Task.Delay((int)(2f * 1000));
+                await Task.Delay((int)(4f * 1000));
                 correctionTxtGameObj.SetActive(false);
             }
 
         }
+        quizTimerScript.remainingDuration += 30;
+        QuestionDelayTimeNew();
+        //qNa.RemoveAt(currentQuestion);
 
-        qNa.RemoveAt(currentQuestion);
-
-        generateQuestion();
+        //generateQuestion();
         //StartCoroutine(WaitForNext());
     }
+
+    public async void QuestionDelayTimeNew()
+    {
+        //await Task.Delay((int)(10f * 120000));
+        await Task.Delay(120000);
+        //messageText.text = "";
+
+    }
+
+    
+
+    public void ConfirmAnswerWithChatGPT()
+    {
+        userTypeTxt = userText.text;
+        letsAskChatGPT.AskChatGPT(userTypeTxt);
+        chatGPTScrollArea.SetActive(true);
+        chatGPTTxtBox.SetActive(true);
+    }
+
+    public void DoneWithChatGPT()
+    {
+        qNa.RemoveAt(currentQuestion);
+        generateQuestion();
+
+        chatGPTScrollArea.SetActive(false);
+        UserText2ChatGPT.SetActive(false);
+        chatGPTTxtBox.SetActive(false);
+        userSendBtn.SetActive(false);
+        userDoneBtn.SetActive(false);
+        string userTypeTxt = "";
+        userText.text = "";
+        //letsAskChatGPT.AskChatGPT(userTypeTxt);
+    }
+
 
     /*IEnumerator WaitForNext()
     {
@@ -190,7 +257,7 @@ public class QuizzManager : MonoBehaviour
         }
     }
 
-   public void generateQuestion()
+   public async void generateQuestion()
     {
         if (qNa.Count > 0)
         {
@@ -200,7 +267,10 @@ public class QuizzManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("End of questions");
+            string questionEndMsg = "End of questions";
+            questionEndTxtObj.text = questionEndMsg;
+            await Task.Delay((int)(5f * 1000));
+
             GameOver();
         }
 

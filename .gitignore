@@ -61,6 +61,18 @@ sysinfo.txt
 *.unitypackage
 *.app
 
+
+# Backup and crash files
+*.bak
+*.tmp
+*.old
+*.orig
+
+# Large asset files
+Assets/Mixamo Character/Ch24_nonPBR.fbx
+Assets/ProgressBars #4/Source.psd
+
+
 # Crashlytics generated file
 crashlytics-build.properties
 

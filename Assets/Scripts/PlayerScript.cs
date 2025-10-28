@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -8,8 +9,9 @@ public class PlayerScript : MonoBehaviour
 {
     [Header("Player Movement")]
     public float playerSpeed = 1.9f;
-    //public float playerSprint = 3f;
+    //public float playerSprint1 = 3f;
     public float playerSprint = 1f;
+    
 
     [Header("Player Health")]
     public float playerHealth = 120f;
@@ -18,9 +20,19 @@ public class PlayerScript : MonoBehaviour
     public int playerHealthInitalHealt2Int = 120;
 
     public Text playerHealthScoreText;
-    public int convertCUrrentPlayerHealth2Int;
-
+    public int convertCurrentPlayerHealth2Int;
     public HealthBarScript healthBar;
+
+    [SerializeField]
+    public GameObject healthGainNotifyTxt;
+    [SerializeField] private Text uiHealthText;
+
+    public GameObject level1NotifyTxt;
+
+    [SerializeField]
+    public GameObject healthZeroNotifyTxt;
+    [SerializeField] private Text uiHealthZeroText;
+
 
     [Header("Player Script Camera")]
     public Transform playerCamera;
@@ -43,17 +55,24 @@ public class PlayerScript : MonoBehaviour
     public float surfaceDistance = 0.4f;
     public LayerMask surfaceMask;
 
+    //public AudioSource source;
+    public AudioClip clip;
+
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         presentHealth = playerHealth;
 
 
-        convertCUrrentPlayerHealth2Int = playerHealthInitalHealt2Int;//keepng track of health score in order to use it for scoreboard
+        convertCurrentPlayerHealth2Int = playerHealthInitalHealt2Int;//keepng track of health score in order to use it for scoreboard
         healthBar.GiveFullHealthToPlayer(playerHealth);
     }
     private void Update()
     {
+        //source.Play();
+        //source.PlayOneShot(clip);
+        
+
         onSurface = Physics.CheckSphere(surfaceCheck.position, surfaceDistance, surfaceMask);
 
         if (onSurface && velocity.y < 0)
@@ -69,6 +88,7 @@ public class PlayerScript : MonoBehaviour
         jump();
         sprint();
         checkIfPlayerIsBelowGroundLevel();
+        //pointTowardsMouseDirection();
     }
 
     void playerMove()
@@ -147,22 +167,69 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
-    public void playerHitDamage(float takeDamage)
+    public async Task playerHitDamageAsync(float takeDamage)
     {
         presentHealth -= takeDamage;
 
-        convertCUrrentPlayerHealth2Int -= (int) takeDamage; //This is the current player's health displayed at scoreboard.       
-        playerHealthScoreText.text = convertCUrrentPlayerHealth2Int + "/" + playerHealthInitalHealt2Int; //This is the current player's health displayed at scoreboard.
-        
+        convertCurrentPlayerHealth2Int -= (int)takeDamage; //This is the current player's health displayed at scoreboard.       
+        playerHealthScoreText.text = convertCurrentPlayerHealth2Int + "/" + playerHealthInitalHealt2Int; //This is the current player's health displayed at scoreboard.
+
         healthBar.SetHealth(presentHealth);
 
         if (presentHealth <= 0)
         {
-            playerDie();
+            uiHealthZeroText.color = Color.red;
+            uiHealthZeroText.text = "Oopss...Health exhausted!";
+
+            healthZeroNotifyTxt.SetActive(true);
+            await Task.Delay((int)(6f * 1000));
+            healthZeroNotifyTxt.SetActive(false);
+
+            playerDie1();
         }
+
+        //if (presentHealth <= (0.25 * playerHealthInitalHealt2Int))
+        if (presentHealth <= 40)
+        {
+            uiHealthText.color = Color.red;
+            uiHealthText.text = "You're running out of health! Eat healthy food to stay alive!";
+
+            delayTime();
+
+        }
+
     }
 
-    private void playerDie()
+
+    public void playerGainMoreHealth(float gainHealth)
+    {
+        presentHealth += gainHealth;
+
+        convertCurrentPlayerHealth2Int += (int)gainHealth; //This is the current player's health displayed at scoreboard.       
+        playerHealthScoreText.text = convertCurrentPlayerHealth2Int + "/" + playerHealthInitalHealt2Int; //This is the current player's health displayed at scoreboard.
+
+        uiHealthText.color = Color.green;
+        uiHealthText.text = "+15 points to your health!";
+        delayTime();
+        healthBar.SetHealth(presentHealth);
+
+    }
+
+    public async void delayTimeLevel1()
+    {
+        level1NotifyTxt.SetActive(true);
+        await Task.Delay((int)(6f * 1000));
+        level1NotifyTxt.SetActive(false);
+    }
+
+    public async void delayTime()
+    {
+        healthGainNotifyTxt.SetActive(true);
+        await Task.Delay((int)(6f * 1000));
+        healthGainNotifyTxt.SetActive(false);
+    }
+
+    private void playerDie1()
     {
         endGameMenuUI.SetActive(true);
         Cursor.lockState = CursorLockMode.None;
@@ -175,12 +242,21 @@ public class PlayerScript : MonoBehaviour
     {
         if (transform.position.y < -2f)
         {
-            playerDie();
+            playerDie1();
         }
     }
 
-    void ReloadLevel()
+    void ReloadLevel1()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void pointTowardsMouseDirection1()
+    {
+        Vector3 mousePosition = Input.mousePosition;
+        mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+
+        Vector2 direction = new Vector2(mousePosition.x - transform.position.x, mousePosition.y - transform.position.y);
+        transform.up = direction;
     }
 }

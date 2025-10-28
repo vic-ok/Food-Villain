@@ -9,15 +9,12 @@ EditorBuildSettings:
     path: Assets/Demo/MainMenu.unity
     guid: f383c7262b3ae8e499b5f12788790433
   - enabled: 1
-    path: Assets/Demo/FoodVillain.unity
-    guid: dc53816692f5af941a8302e55fd738d9
+    path: Assets/Demo/FoodVillain 6.unity
+    guid: 6f67a22045b9a9445ad8bf86b0254411
   - enabled: 1
-    path: Assets/Demo/FoodVillain 2.unity
-    guid: bc8f88e2b3c9c514cabdc6ea54df9be6
+    path: Assets/Demo/FoodVillain 7.unity
+    guid: 89fda4db4d4b3b544b62dea79f76a2a7
   - enabled: 1
-    path: Assets/Demo/FoodVillain 3.unity
-    guid: b9b3606d9c404f340ba887a6d22ce773
-  - enabled: 1
-    path: Assets/Demo/FoodVillain 4.unity
-    guid: 5261e7ed326304e4b953a9fdb844fcd6
+    path: Assets/Demo/Demo_FreeKitchen 1.unity
+    guid: bc6818e319761694397db70f28878c5c
   m_configObjects: {}

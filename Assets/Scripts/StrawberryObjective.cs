@@ -9,6 +9,8 @@ public class StrawberryObjective : MonoBehaviour
     int badgeCount = 5;
     [SerializeField] Text badgeCountText;*/
 
+    public PlayerScript healthBarForStrawberry;
+
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Player")
@@ -16,6 +18,7 @@ public class StrawberryObjective : MonoBehaviour
             ObjectivesCompete.GameIsStopped = true;
             ObjectivesCompete.occurence.GetObjectivesDone(true, false, false, false, false, false);
             //Debug.Log("Player touched ");
+            healthBarForStrawberry.playerGainMoreHealth(15);
 
             /*badgeCount--;
             badgeCountText.text = "Well done: " + badgeCount;*/

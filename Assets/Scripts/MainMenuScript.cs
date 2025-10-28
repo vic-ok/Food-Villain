@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MainMenuScript : MonoBehaviour
 {
     public GameObject selectCharacter;
+    public GameObject aboutPage;
     public GameObject mainMenu;
 
     public void onSelectCharacter()
@@ -14,9 +15,21 @@ public class MainMenuScript : MonoBehaviour
         mainMenu.SetActive(false);
     }
 
+    public void onAbout()
+    {
+        aboutPage.SetActive(true);
+        mainMenu.SetActive(false);
+    }
+
+    public void onBackBtn()
+    {
+        mainMenu.SetActive(true);
+        aboutPage.SetActive(false);
+    }
+
     public void onPlayBtn()
     {
-        SceneManager.LoadScene("FoodVillain 3");
+        SceneManager.LoadScene("FoodVillain 7");
     }
 
     public void onQuitBtn()

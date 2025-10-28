@@ -108,9 +108,15 @@ public class ObjectivesCompete : MonoBehaviour
             {
                 objective5.color = Color.cyan;
                 showObjectives5();
-                silverBadgeCongratsBtnText.SetActive(true);
+
+                
+
+                /*silverBadgeCongratsBtnText.SetActive(true);
                 await Task.Delay((int)(4f * 1000));
-                silverBadgeCongratsBtnText.SetActive(false);
+                silverBadgeCongratsBtnText.SetActive(false);*/
+
+                Cursor.lockState = CursorLockMode.None;
+                GameIsStopped = false; 
 
                 showSilverBadge();
                 //showQuiz();

@@ -1,0 +1,26 @@
+{
+    "m_Dictionary": {
+        "m_DictionaryValues": [
+            {
+                "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "firstTime",
+                "value": "{\"m_Value\":false}"
+            },
+            {
+                "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "autoPublish",
+                "value": "{\"m_Value\":true}"
+            },
+            {
+                "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "createDefaultBuildsFolder",
+                "value": "{\"m_Value\":true}"
+            },
+            {
+                "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "buildOutputDirList",
+                "value": "{\"m_Value\":\"C:/Users/Victor/Unity Projects/Food Adventure 2 - No Login/Builds/WebGL Unity Build GPT 3 NLogin -5-24;C:/Users/Victor/Unity Projects/Food Adventure 2 - No Login/Builds/WebGL Unity Build GPT 3;C:/Users/Victor/Unity Projects/Food Adventure 2 - No Login/Builds/WebGL Build Latest with GPT;C:/Users/Victor/Unity Projects/Food Adventure 2 - No Login/Builds/WebGL Unity Build GPT 2;C:/Users/Victor/Unity Projects/Food Adventure 2 - No Login/Builds/WebGL Unity Build GPT;;;;;\"}"
+            }
+        ]
+    }
+}

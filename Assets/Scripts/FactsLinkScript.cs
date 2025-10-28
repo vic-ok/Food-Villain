@@ -29,4 +29,11 @@ public class FactsLinkScript : MonoBehaviour
     {
         Application.OpenURL("https://www.hsph.harvard.edu/nutritionsource/avocados/#:~:text=A%20whole%20medium%20avocado%20contains,levels%2C%20avocados%20contain%20no%20cholesterol.");
     }
+
+    public void recommendedDailyNutritionalGoalLink()
+    {
+        Application.OpenURL("https://www.dietaryguidelines.gov/sites/default/files/2020-12/Dietary_Guidelines_for_Americans_2020-2025.pdf");
+        Application.OpenURL("https://www.fao.org/3/Y5022E/y5022e04.htm");
+     
+    }
 }

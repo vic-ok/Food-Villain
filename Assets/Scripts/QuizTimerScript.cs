@@ -17,6 +17,8 @@ public class QuizTimerScript : MonoBehaviour
     public GameObject timerHurryTxt;
 
     public DraggableItem draggableItem;
+    
+    
 
     // Start is called before the first frame update
 
@@ -70,6 +72,7 @@ public class QuizTimerScript : MonoBehaviour
         //Debug.Log("Quiz level ends!");
         quizMgr.GameOver();
         draggableItem.FoodGrpGameOver();
+                
         Cursor.lockState = CursorLockMode.None;
     }
 

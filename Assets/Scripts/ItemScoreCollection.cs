@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ItemScoreCollection : MonoBehaviour
 {
-    int points = 0;
+    //int points = 0;
     [SerializeField] Text pointText;
     [SerializeField] AudioSource collectionSound;
 
@@ -15,8 +15,8 @@ public class ItemScoreCollection : MonoBehaviour
         if (other.gameObject.CompareTag("CoinFoodTag"))
         {
             Destroy(other.gameObject);
-            /*pointsCounter++;
-            badgeCountText.text = "Points: " + pointsCounter;
+            /*foodPointsCounter++;
+            badgeCountText.text = "Points: " + foodPointsCounter;
             collectionSound.Play();*/
             }
     }

@@ -27,7 +27,7 @@ public class MenuScript : MonoBehaviour
                 pause();
                 Cursor.lockState = CursorLockMode.None;
             }
-        }else if (Input.GetKeyDown("m"))
+        }else if (Input.GetKeyDown("*"))
         {
             if (GameIsStopped)
             {

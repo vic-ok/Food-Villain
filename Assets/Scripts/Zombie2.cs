@@ -26,7 +26,7 @@ public class Zombie2 : MonoBehaviour
     public Animator anim;
 
     [Header("Increase score after zombie is killed")]
-    /*int pointsCounter = 0;
+    /*int foodPointsCounter = 0;
     [SerializeField] Text badgeCountText;
     [SerializeField] AudioSource collectionSound;*/
     public bool isZombieDead = false;
@@ -118,7 +118,7 @@ public class Zombie2 : MonoBehaviour
 
                 if (playerBody != null)
                 {
-                    playerBody.playerHitDamage(giveDamege);
+                    playerBody.playerHitDamageAsync(giveDamege);
                 }
 
                 //anim.SetBool("Walking", false);

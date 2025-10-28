@@ -15,7 +15,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     private const float distanceThreshold = 100f;
     public string targetTag;
 
-    static int pointsCounter = 0;
+    public static int foodPointsCounter = 0;
     [SerializeField] Text pointText;
     [SerializeField] AudioSource collectionSound;
     public GameObject foodGrpPanel;
@@ -80,8 +80,8 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
             transform.SetParent(targetTransform);
             transform.position = targetTransform.position;
 
-            pointsCounter++;
-            pointText.text = pointsCounter + "";
+            foodPointsCounter++;
+            pointText.text = foodPointsCounter + "";
             collectionSound.Play();
         }
 
@@ -115,9 +115,9 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         //allScoreboard.onclickViewScoreboard();
         showLvl3LableTxtInGameObj1.SetActive(true);
         showLvl3LableTxtInGameObj2.SetActive(true);
-        level3ScoreText.text = pointsCounter + "" ;
+        level3ScoreText.text = foodPointsCounter + "" ;
 
-        /*if (pointsCounter < 15)
+        /*if (foodPointsCounter < 15)
         {
             chkScore2UnlockGoldTxtGameObj.SetActive(true);
             await Task.Delay((int)(4f * 1000));
@@ -134,5 +134,13 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
         }*/
     }
+
+    /*public int addPointToFoodPoint(int pointsC)
+    {
+        //throw new NotImplementedException();
+        pointsC = foodPointsCounter + qMgr.score;
+        pointText.text = "Points: " + pointsC;
+        return pointsC;
+    }*/
 
 }
