@@ -1,6 +1,6 @@
 # 🍔 Food Villain
 
-**A Unity-based 3D adventure game** where the player completes cooking and delivery challenges across levels, built using **C# and Unity Engine**.
+**A Unity-based 3D adventure game** using persuasive technologies to promote healthy eating, where the player completes tasks and overcomes challenges across levels, built using **C# and Unity Engine**.
 
 ---
 
