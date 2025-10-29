@@ -12,7 +12,7 @@ public class ChatGPTLvl4Script : MonoBehaviour
     [System.Serializable]
     public class onResponseEvent : UnityEvent<string> { }
 
-    private OpenAIApi openAI = new OpenAIApi("REMOVED_SECRET", "REMOVED_SECRET");
+    private OpenAIApi openAI = new OpenAIApi("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", "org-P8tOUjEO3lNED9QKBVlukNRi");
     private List<ChatMessage> messages = new List<ChatMessage>();
     //public Text ChatGPTCorrectionTxt;
 
