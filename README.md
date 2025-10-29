@@ -34,4 +34,4 @@ You can play the live WebGL demo here:
 
 Victor Okpanachi
 Master’s in Computer Science, University of British Columbia
-Interested in game development, workflow automation, and user-focused tech.
+Interested in game development, workflow automation, user-focused tech, and data analysis
